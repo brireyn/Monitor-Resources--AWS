@@ -3,23 +3,25 @@
 
 <h2>Description</h2>
 This lab demonstrates monitoring resources and deployed configurations using AWS CloudWatch and CloudTrail, along with setting alert metrics for resource management by creating SNS topics and using CloudWatch metric filtering. 
-When the CloudWatch alarms breach, the alarm sends notifications based on trigger to your email. 
+When the CloudWatch alarms breach, the alarm sends notifications based on trigger to your email. An example of an enterprise Web Application Databse in AWS that leverages different resources across multiple EC2 instances. 
+The EC2 instances used will spin up dynamic loads to create activity to monitor using PluralSight labs environment. The EC2 instances will be monitored via a custom made CloudWatch service dashboard.  
 <br></br>
 
 
-<b> ![diagram](https://github.com/brireyn/Azure-VNet/assets/96150916/edc7b9b5-bcdc-4f91-b117-20a3e8ce8a45)</b>
--<b> </b>
-Here there are two Subnets, the Public Subnet contains the Bastion host. Each subnet contains a security group as well as a security group for the bastion. The lab demonstrates the white and blacklisting of different protocols for inbound and outbound security group rules.
-
 <h2>Languages and Utilities Used</h2>
 
-- <b>Linux</b> 
-- <b>SSH</b>
+- <b>JSON</b> 
+- <b>AWS CloudWatch</b>
+- <b>AWS CloudTrail</b>
+- <b>EC2</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
-- <b>Microsoft Azure</b>
+- <b>Amazon Web Services (AWS console)</b>
+- <b>PluralSight Labs VMs </b>
 
 <h2>Program walk-through:</h2>
+
+Step 1: Log into the AWS console, use the search bar to navigate to the CloudWatch service. 
 
