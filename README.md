@@ -101,6 +101,26 @@ Step 10. Monitor Alarms and Take action:
 ![step10_one](https://github.com/brireyn/Monitor-Resources--AWS/assets/96150916/8de2930e-5db0-4346-839a-5dc94083d347)
 ![step10_two](https://github.com/brireyn/Monitor-Resources--AWS/assets/96150916/666dd3d6-c172-4ce7-a755-1c0e45a245ef)
 
+Step 11:  Create an alarm for DB-02 that automatically reboots the EC2 instance when the CPU spikes to help solve the devs issue with an alarm condition:
+- In the DB-02 row under Actions column, click bell icon.
+- In the conditions section select Lower and tehn enter 20 in the THAN... input. Click next.
+- In the Notification section, from the Send a noticification to.. drop-down, select Default_CloudWatch_Alarms_Topic.
+- ![notification_alarm](https://github.com/brireyn/Monitor-Resources--AWS/assets/96150916/c8696b69-726a-4d83-ace1-be3ba8a9366d)
+- Under the EC2 action section, Add EC2 action adn select Reboot this instance. (So devs can patch the application).
+- ![EC2_action](https://github.com/brireyn/Monitor-Resources--AWS/assets/96150916/17135620-8d88-4045-a62a-8e7ee38f2ac0)
+- Under Alarm name, type DB-02 Reboot on CPU Spike and click Next.
+- ![reboot_cpu_spike](https://github.com/brireyn/Monitor-Resources--AWS/assets/96150916/c334c6c4-d7ac-406a-a5f8-81c06bff8946)
+
+- Create Alarm
+- ![create_alarm1](https://github.com/brireyn/Monitor-Resources--AWS/assets/96150916/d5064cc7-941f-465b-bcc9-59ec86d77cc9)
+
+  This finds the problem DB and creates a self correcting action until the application can be updated. Here are the end results of alarm alert status.
+
+![alarm_status](https://github.com/brireyn/Monitor-Resources--AWS/assets/96150916/7f530231-dc5b-476b-bc5e-190df438e1df)
+
+
+
+
 
 
 
