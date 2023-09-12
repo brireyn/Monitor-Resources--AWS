@@ -4,7 +4,7 @@
 <h2>Description</h2>
 This lab demonstrates monitoring resources and deployed configurations using AWS CloudWatch and CloudTrail, along with setting alert metrics for resource management by creating SNS topics and using CloudWatch metric filtering. 
 When the CloudWatch alarms breach, the alarm sends notifications based on trigger to your email. This is an example of an enterprise Web Application Database in AWS that leverages different resources across multiple EC2 instances. 
-The EC2 instances used will spin up dynamic loads to create activity to monitor using PluralSight labs environment. The EC2 instances will be monitored via a custom made CloudWatch service dashboard.  
+The EC2 instances used will spin up dynamic loads to create activity to monitor. The EC2 instances will be monitored via a custom made CloudWatch service dashboard.  
 <br></br>
 
 
