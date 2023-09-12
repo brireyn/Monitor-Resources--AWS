@@ -19,7 +19,7 @@ The EC2 instances used will spin up dynamic loads to create activity to monitor.
 
 - <b>Windows 10</b>
 - <b>Amazon Web Services (AWS console)</b>
-- <b>PluralSight Labs VMs </b>
+
 
 <h2>Program walk-through:</h2>
 
